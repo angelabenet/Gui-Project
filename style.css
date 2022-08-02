@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+body{
+
+margin-top: 25px;
+  display: block;
+
+  padding: 0;
+  background-image: url("/assets/download.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  filter: sepia(75%);
+
+
+ background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+
+h1{
+  font-family: 'Mouse Memoirs', sans-serif;
+font-size: 75px;
+
+}
+h3{
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+p{
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 30px;
+  animation: type 4s steps(60, end);
+}
+
+
+a{
+
+font-family: 'Mouse Memoirs', sans-serif;
+font-size: 55px;
+text-decoration: none;
+background-color: black;
+border-radius: 25px;
+color: gold;
+
+
+}
+
+p{
+
+
+  font-size: 20px;
+text-align:center ;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 65em;
+  animation: type 4s steps(500, end); 
+}
+
+p:nth-child(1){
+  animation: type2 8s steps(60, end);
+}
+
+p a{
+  color: #000;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 2s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
